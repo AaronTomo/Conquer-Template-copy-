@@ -4,19 +4,95 @@
 
 #navBar{
     background-color: #282828;
+    height: 50px;
+
+
 }
 
-p{
-    display: inline-block;
+#navBar > a{
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: snow;
+    text-decoration: none;
+    
+
+}
+
+#navBar > a:hover{
+    background-color: dimgray;
+    border-radius: 2px;
+}
+
+#fogImg{
+    height: 150px;
+    width: 250px;
+}
+
+#fogImg:hover{
+    transform: scale(1.05);
 }
 
 #mainImg{
-    background-color: aqua;
+    background-image: url(img/forest_SD.jpg);
+    background-size: auto;
     height: 500px;
     width: auto;
+    background-size: cover;
 }
 
-h3{
+
+#mainImg > h1{
+    color: azure;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 60px;
+   
+}
+
+#mainImg > h6{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+    color: darkslateblue;
+}
+
+#imgNavContainer{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 300px;
     margin-left: auto;
     margin-right: auto;
+    grid-column-gap: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#info1{
+    overflow: hidden;
+}
+
+#imgNavContainer > div{
+    background-color: slategray;
+}
+
+#viewContainer{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-column-gap: 30px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#viewImg{
+    height: 300px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color:#282828;
+    height: 100px;
 }
